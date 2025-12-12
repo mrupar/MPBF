@@ -12,11 +12,11 @@ import subprocess
 from pathlib import Path
 
 API_BASE = "https://www.dsimb.inserm.fr/ATLAS/api"
-DEFAULT_DEST = "ATLAS_data"
+DEFAULT_DEST = "ATLAS_downloads"
 SUPPORTED_DATASETS = ["ATLAS", "chameleon", "DPF"]
 AVAILABLE_ARCHIVES = ["analysis", "protein", "total", "metadata"]
 MARKER = ".complete"
-DEFAULT_SUFFIXES = ["Bfactor.tsv", "pLDDT.tsv", "RMSF.tsv", "gyrate.tsv"]
+DEFAULT_SUFFIXES = ["Bfactor.tsv", "pLDDT.tsv", "RMSF.tsv", "gyrate.tsv", ".pdb"]
 
 
 def check_aria2c_installed() -> None:
