@@ -1087,7 +1087,7 @@ if __name__ == "__main__":
     # Write Peeling results
     #######################
 
-    write_peeling_results(disable_energies)
+    #write_peeling_results(disable_energies)
 
     ############
     # Set colors
